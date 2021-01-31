@@ -6,4 +6,14 @@
 
 6-git branch dev
 7-git branch test
-8-
+8-git checkout dev
+9-git add .
+10-git commit -m "adding new branch"
+11-git push origin dev
+12-git checkout master
+13-git merge dev
+
+To remove a branch localy: git branch -d test
+
+To remove a branch remotly: git push origin --delete dev
+
