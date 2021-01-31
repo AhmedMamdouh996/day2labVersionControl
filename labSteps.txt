@@ -1,0 +1,9 @@
+1-git init
+2-git add .
+3-git commit -m "first commit"
+4-git remote add origin "https://github.com/AhmedMamdouh996/day2labVersionControl.git"
+5-git push origin master
+
+6-git branch dev
+7-git branch test
+8-
