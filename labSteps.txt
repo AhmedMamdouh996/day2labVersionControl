@@ -12,8 +12,32 @@
 11-git push origin dev
 12-git checkout master
 13-git merge dev
+14-git push origin master
 
 To remove a branch localy: git branch -d test
 
 To remove a branch remotly: git push origin --delete dev
 
+15-*INVITATION SENT*
+
+16- git tag -a v1.4 29346ba -m "adding annotaed tag"
+17-git push origin v1.4
+18-git tag
+
+To delete a tag localy: git tag -d v1.4
+
+To remove a tag remotly: git push origin --delete v1.4
+
+16- Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow.
+example: when we made changes in one commit then combined it with the master.
+
+17-
+-A developer creates the feature in a dedicated branch in their local repo.
+
+-The developer pushes the branch to a public github repository.
+
+-The developer files a pull request via github.
+
+-The rest of the team reviews the code, discusses it, and alters it.
+
+-The project maintainer merges the feature into the official repository and closes the pull request.
